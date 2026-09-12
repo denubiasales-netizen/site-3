@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumen Dental — Odontologia moderna e acolhedora em Austin, TX</title>
+  <meta name="description" content="Lumen Dental: odontologia moderna, acolhedora e orientada por tecnologia digital. Clareamento, implantes, alinhadores e atendimento de emergência em Austin, TX.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lumen Dental">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Lumen Dental — O seu sorriso merece um cuidado moderno">
+  <meta property="og:description" content="Odontologia moderna, toque humano. Clareamento, implantes, alinhadores e emergência em Austin, TX.">
+  <meta property="og:image" content="assets/images/hero.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23164E63'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial,sans-serif' font-weight='700' font-size='24' fill='%23FFFFFF'%3ELD%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#services-conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Lumen Dental — voltar ao início">
+        <span class="brand-mark" aria-hidden="true">LD</span>
+        <span class="brand-text" aria-hidden="true">LUMEN<br>DENTAL</span>
+      </a>
+
+      <nav class="site-nav" id="siteNav" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#services" data-i18n="nav_services">Serviços</a></li>
+          <li><a href="#team" data-i18n="nav_team">Equipe</a></li>
+          <li><a href="#results" data-i18n="nav_results">Resultados</a></li>
+          <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+          <li><a href="#booking" data-i18n="nav_contact">Contato</a></li>
+        </ul>
+        <div class="nav-mobile-footer">
+          <a class="btn btn-primary btn-block" href="#booking" data-i18n="cta_book">Agende sua consulta</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Seletor de idioma / Language selector">
+          <button type="button" class="lang-btn is-active" data-lang="pt" aria-pressed="true">PT</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-primary btn-sm header-cta" href="#booking" data-i18n="cta_book">Agende sua consulta</a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Introdução">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow" data-i18n="hero_eyebrow">ODONTOLOGIA MODERNA, TOQUE HUMANO</span>
+          <h1 class="hero-title" data-i18n="hero_title">O seu sorriso merece um cuidado moderno.</h1>
+          <p class="hero-sub" data-i18n="hero_sub">Na Lumen Dental, você é cuidado com gentileza, tecnologia de ponta e atenção de verdade. Cada plano de tratamento é pensado para você — sem pressa, sem pressão, apenas cuidado.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#booking" data-i18n="hero_cta_primary">Agende sua consulta</a>
+            <a class="btn btn-outline btn-lg" href="#services" data-i18n="hero_cta_secondary">Conheça os serviços</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-img-frame">
+            <img src="assets/images/hero.jpg" alt="Atendimento acolhedor na clínica Lumen Dental" data-i18n-alt="alt_hero" fetchpriority="high">
+          </div>
+          <div class="hero-badge">
+            <div class="hero-badge-rate" data-i18n-html="badge_rate"><strong>4.9</strong><span class="stars" aria-hidden="true">★★★★★</span></div>
+            <div class="hero-badge-note" data-i18n="badge_note">1.200+ pacientes</div>
+            <div class="hero-badge-caption" data-i18n="badge_caption">Atendimento gentil, tecnologia moderna</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRUST STRIP ============ -->
+    <section class="trust" aria-label="Nossos diferenciais em números">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </span>
+            <div class="trust-copy">
+              <span class="trust-title" data-i18n="trust_1_title">12+ anos de cuidado</span>
+              <span class="trust-text" data-i18n="trust_1_text">Experiência clínica dedicada à odontologia moderna.</span>
+            </div>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v9"/><path d="M11 6v13"/><path d="M15 8v11"/><path d="M19 4v15"/></svg>
+            </span>
+            <div class="trust-copy">
+              <span class="trust-title" data-i18n="trust_2_title">98% de aprovação</span>
+              <span class="trust-text" data-i18n="trust_2_text">Pacientes que recomendam a Lumen a amigos e família.</span>
+            </div>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg>
+            </span>
+            <div class="trust-copy">
+              <span class="trust-title" data-i18n="trust_3_title">Tecnologia digital</span>
+              <span class="trust-text" data-i18n="trust_3_text">Planejamento 3D e escaneamento intraoral, menos improviso.</span>
+            </div>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><circle cx="12" cy="14" r="3"/><path d="M9.5 8.5 8 10l1.5 1.5M14.5 8.5 16 10l-1.5 1.5"/></svg>
+            </span>
+            <div class="trust-copy">
+              <span class="trust-title" data-i18n="trust_4_title">Planos flexíveis</span>
+              <span class="trust-text" data-i18n="trust_4_text">Simplificamos o caminho até o seu sorriso ideal.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services-conteudo">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow" data-i18n="services_eyebrow">NOSSOS SERVIÇOS</span>
+          <h2 class="section-title" data-i18n="services_title">Cuidado completo, do sorriso ao bem-estar.</h2>
+          <p class="section-sub" data-i18n="services_sub">Da limpeza de rotina à reabilitação completa, tudo em um só lugar.</p>
+        </header>
+
+        <div class="cards-grid" id="services">
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </span>
+            <h3 class="service-title" data-i18n="s1_title">Odontologia Geral</h3>
+            <p class="service-text" data-i18n="s1_text">Avaliações completas, limpeza e prevenção para manter seu sorriso saudável o ano todo.</p>
+            <a class="service-link" href="#booking" data-i18n="learn_more">Saiba mais<span class="link-arrow" aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z"/></svg>
+            </span>
+            <h3 class="service-title" data-i18n="s2_title">Odontologia Estética</h3>
+            <p class="service-text" data-i18n="s2_text">Lentes de contato, facetas e detalhes que valorizam o seu sorriso natural.</p>
+            <a class="service-link" href="#booking" data-i18n="learn_more">Saiba mais<span class="link-arrow" aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+            </span>
+            <h3 class="service-title" data-i18n="s3_title">Clareamento Dental</h3>
+            <p class="service-text" data-i18n="s3_text">Clareamento seguro e acompanhado, com resultados perceptíveis e duradouros.</p>
+            <a class="service-link" href="#booking" data-i18n="learn_more">Saiba mais<span class="link-arrow" aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4C14.5 4 19 7 19 11.5c0 3.5-2.5 5.5-3.5 8-0.4 1-1 1.5-1.8 1-0.6-.4-.6-2-.6-2.5v-.7c0-.3-.3-.5-.6-.4-.7.3-1.4.5-2.5.5-.6 0-1.3-.1-1.8-.3-.3-.2-.5-.5-.4-.8L8.5 14c.1-.3.5-.5.8-.4l.7.3V5C9.3 4.5 10.7 4 12 4Z"/><path d="M17 6c2 1 5 4 5 8" opacity=".35"/></svg>
+            </span>
+            <h3 class="service-title" data-i18n="s4_title">Implantes Dentários</h3>
+            <p class="service-text" data-i18n="s4_text">Reconstrua dentes ausentes com planejamento digital preciso e materiais de qualidade.</p>
+            <a class="service-link" href="#booking" data-i18n="learn_more">Saiba mais<span class="link-arrow" aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"/><path d="M7 13h.01M17 13h.01"/><path d="M3 9 4.5 5h15L21 9"/></svg>
+            </span>
+            <h3 class="service-title" data-i18n="s5_title">Aparelhos Alinhadores</h3>
+            <p class="service-text" data-i18n="s5_text">Alinhe seu sorriso com alinhadores discretos, removíveis e confortáveis.</p>
+            <a class="service-link" href="#booking" data-i18n="learn_more">Saiba mais<span class="link-arrow" aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="service-card reveal">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>
+            </span>
+            <h3 class="service-title" data-i18n="s6_title">Atendimento de Emergência</h3>
+            <p class="service-text" data-i18n="s6_text">Dor não espera. Temos espaço para pacientes em urgência odontológica.</p>
+            <a class="service-link" href="#booking" data-i18n="learn_more">Saiba mais<span class="link-arrow" aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MODERN CARE ============ -->
+    <section class="section section-soft">
+      <div class="container split" id="modern">
+        <figure class="split-media reveal">
+          <img src="assets/images/corridor.jpg" alt="Corredor de entrada da clínica Lumen Dental" data-i18n-alt="alt_corridor" loading="lazy">
+        </figure>
+        <div class="split-copy reveal">
+          <span class="eyebrow" data-i18n="modern_eyebrow">CUIDADO MODERNO</span>
+          <h2 class="section-title" data-i18n="modern_title">Tecnologia a serviço do seu conforto.</h2>
+          <p class="section-sub" data-i18n="modern_text">Nossa clínica une o melhor da odontologia digital a um atendimento humano e sem pressa. Você entende cada etapa do seu tratamento.</p>
+          <ul class="points-list">
+            <li class="point">
+              <span class="point-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4 10-11"/></svg>
+              </span>
+              <div><h3 class="point-title" data-i18n="modern_p1_title">Odontologia digital</h3><p class="point-text" data-i18n="modern_p1_text">Planejamento em 3D e radiografia digital para mais precisão e menos retrabalho.</p></div>
+            </li>
+            <li class="point">
+              <span class="point-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4 10-11"/></svg>
+              </span>
+              <div><h3 class="point-title" data-i18n="modern_p2_title">Escaneamento intraoral</h3><p class="point-text" data-i18n="modern_p2_text">Adeus, molde tradicional. O escaneamento é rápido, confortável e imediato.</p></div>
+            </li>
+            <li class="point">
+              <span class="point-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4 10-11"/></svg>
+              </span>
+              <div><h3 class="point-title" data-i18n="modern_p3_title">Sedação consciente</h3><p class="point-text" data-i18n="modern_p3_text">Para quem sente ansiedade, oferecemos opções suaves e seguras de relaxamento.</p></div>
+            </li>
+            <li class="point">
+              <span class="point-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4 10-11"/></svg>
+              </span>
+              <div><h3 class="point-title" data-i18n="modern_p4_title">Agendamento fácil</h3><p class="point-text" data-i18n="modern_p4_text">Horários que cabem na sua rotina, com lembretes e retorno acompanhado.</p></div>
+            </li>
+          </ul>
+          <a class="btn btn-primary" href="#booking" data-i18n="modern_cta">Agendar avaliação</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHITENING SPOTLIGHT ============ -->
+    <section class="section">
+      <div class="container split split-reverse" id="whitening">
+        <div class="split-copy reveal">
+          <span class="eyebrow" data-i18n="whitening_eyebrow">EM DESTAQUE</span>
+          <h2 class="section-title" data-i18n="whitening_title">Um sorriso mais claro, do jeito seguro.</h2>
+          <p class="section-sub" data-i18n="whitening_text">Avaliamos o estado do seu esmalte, indicamos o protocolo certo e acompanhamos a evolução em cada sessão — saúde primeiro, sempre.</p>
+          <ul class="check-list">
+            <li data-i18n="whitening_li_1">Avaliação do esmalte antes de iniciar</li>
+            <li data-i18n="whitening_li_2">Acompanhamento em cada sessão</li>
+            <li data-i18n="whitening_li_3">Tonalidade registrada e mensurável</li>
+          </ul>
+          <a class="btn btn-outline" href="#results" data-i18n="whitening_cta">Ver o que esperar do clareamento</a>
+        </div>
+        <figure class="split-media reveal">
+          <img src="assets/images/whitening.jpg" alt="Protocolo de clareamento dental na Lumen Dental" data-i18n-alt="alt_whitening" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ TEAM ============ -->
+    <section class="section section-soft" id="team">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow" data-i18n="team_eyebrow">NOSSA EQUIPE</span>
+          <h2 class="section-title" data-i18n="team_title">Pessoas que cuidam de você.</h2>
+          <p class="section-sub" data-i18n="team_sub">Profissionais que combinam técnica, escuta e acolhimento.</p>
+        </header>
+        <div class="cards-grid team-grid">
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="assets/images/doctor-1.jpg" alt="Dra. Alana Mello" data-i18n-alt="alt_doctor1" loading="lazy">
+            </div>
+            <div class="team-body">
+              <h3 class="team-name" data-i18n="t1_name">Dra. Alana Mello</h3>
+              <span class="team-role" data-i18n="t1_role">Odontologia Estética</span>
+              <p class="team-bio" data-i18n="t1_bio">Cuida dos detalhes que fazem o sorriso único de cada paciente brilhar.</p>
+            </div>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="assets/images/doctor-2.jpg" alt="Dr. Rafael Duarte" data-i18n-alt="alt_doctor2" loading="lazy">
+            </div>
+            <div class="team-body">
+              <h3 class="team-name" data-i18n="t2_name">Dr. Rafael Duarte</h3>
+              <span class="team-role" data-i18n="t2_role">Reabilitação e Implantes</span>
+              <p class="team-bio" data-i18n="t2_bio">Combina planejamento digital com precisão clínica em reabilitações completas.</p>
+            </div>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img src="assets/images/reception.jpg" alt="Gabriela Sena" data-i18n-alt="alt_reception" loading="lazy">
+            </div>
+            <div class="team-body">
+              <h3 class="team-name" data-i18n="t3_name">Gabriela Sena</h3>
+              <span class="team-role" data-i18n="t3_role">Coordenação de Experiência do Paciente</span>
+              <p class="team-bio" data-i18n="t3_bio">Garante que sua visita seja tranquila, do agendamento ao sorriso final.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS / SHADE COMPARER ============ -->
+    <section class="section" id="results">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow" data-i18n="results_eyebrow">RESULTADOS</span>
+          <h2 class="section-title" data-i18n="results_title">A evolução, tom a tom.</h2>
+          <p class="section-sub" data-i18n="results_sub">Sem promessas mágicas: você acompanha a transformação do seu sorriso com registros reais e honestos.</p>
+        </header>
+
+        <div class="compare reveal">
+          <article class="shade-card shade-card-before">
+            <span class="shade-label" data-i18n="results_before">Antes</span>
+            <svg class="tooth-svg" viewBox="0 0 100 108" role="img" aria-hidden="true">
+              <defs>
+                <linearGradient id="shadeBeforeGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#E9D5A6"/>
+                  <stop offset="1" stop-color="#CFA966"/>
+                </linearGradient>
+              </defs>
+              <path d="M50 10 C61 10 79 21 79 44 C79 61 67 74 61 95 C60 99 58 101 56 99 C54 96 56 82 53 80 C51 78 49 78 47 80 C44 82 46 96 44 99 C42 101 40 99 39 95 C33 74 21 61 21 44 C21 21 39 10 50 10 Z" fill="url(#shadeBeforeGrad)"/>
+            </svg>
+            <div class="shade-scale shade-scale-before" aria-hidden="true"></div>
+            <p class="shade-caption" data-i18n="results_shade_before">Tonalidade de partida</p>
+            <p class="shade-code" aria-label="Escala A3 a A2">A3 · A2</p>
+          </article>
+
+          <div class="compare-divider" aria-hidden="true">
+            <span class="compare-arrow">→</span>
+            <span class="compare-spark">✦</span>
+          </div>
+
+          <article class="shade-card shade-card-after">
+            <span class="shade-label" data-i18n="results_after">Depois</span>
+            <svg class="tooth-svg" viewBox="0 0 100 108" role="img" aria-hidden="true">
+              <defs>
+                <linearGradient id="shadeAfterGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#FFFFFF"/>
+                  <stop offset="1" stop-color="#EFE9DC"/>
+                </linearGradient>
+              </defs>
+              <path d="M50 10 C61 10 79 21 79 44 C79 61 67 74 61 95 C60 99 58 101 56 99 C54 96 56 82 53 80 C51 78 49 78 47 80 C44 82 46 96 44 99 C42 101 40 99 39 95 C33 74 21 61 21 44 C21 21 39 10 50 10 Z" fill="url(#shadeAfterGrad)"/>
+            </svg>
+            <div class="shade-scale shade-scale-after" aria-hidden="true"></div>
+            <p class="shade-caption" data-i18n="results_shade_after">Tonalidade final</p>
+            <p class="shade-code" aria-label="Escala A2 a B1">A2 · B1</p>
+          </article>
+        </div>
+
+        <p class="compare-note" data-i18n="results_note">Representação ilustrativa da tonalidade — os resultados variam de paciente para paciente.</p>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section section-soft" id="testimonials">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow" data-i18n="test_eyebrow">DEPOIMENTOS</span>
+          <h2 class="section-title" data-i18n="test_title">Sorrisos que confiam na Lumen.</h2>
+        </header>
+        <div class="cards-grid testimonial-grid">
+          <figure class="testimonial reveal">
+            <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+            <blockquote data-i18n="test_1_text">“Eu tinha medo de dentista desde criança. Aqui, a equipe me acolheu com uma calma que eu não sabia que existia.”</blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">MC</span>
+              <span><strong data-i18n="test_1_name">Mariana Costa</strong><br><small data-i18n="test_1_detail">Facetas · Paciente desde 2021</small></span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+            <blockquote data-i18n="test_2_text">“O planejamento digital me mostrou o resultado antes de começar. Me senti no controle do meu próprio tratamento.”</blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">CE</span>
+              <span><strong data-i18n="test_2_name">Carlos Eduardo</strong><br><small data-i18n="test_2_detail">Implantes · Paciente desde 2022</small></span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+            <blockquote data-i18n="test_3_text">“Em três sessões de clareamento acompanhado, a diferença foi enorme — e meu sorriso continua saudável.”</blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">LP</span>
+              <span><strong data-i18n="test_3_name">Letícia Prado</strong><br><small data-i18n="test_3_detail">Clareamento · Paciente desde 2023</small></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="container container-narrow">
+        <header class="section-head reveal">
+          <span class="eyebrow" data-i18n="faq_eyebrow">DÚVIDAS FREQUENTES</span>
+          <h2 class="section-title" data-i18n="faq_title">Perguntas que recebemos com frequência.</h2>
+        </header>
+
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span data-i18n="faq_1_q">Como funciona o agendamento?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p data-i18n="faq_1_a">Basta escolher a especialidade, a data e o horário no formulário desta página. Em instantes você recebe a confirmação e nossa equipe entra em contato para alinhar os detalhes.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span data-i18n="faq_2_q">Vocês atendem convênios?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p data-i18n="faq_2_a">Recebemos pacientes de diversos convênios e também oferecemos planos facilitados. Nossa equipe ajuda a entender a melhor opção para o seu caso.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span data-i18n="faq_3_q">Quanto tempo dura uma consulta inicial?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p data-i18n="faq_3_a">A primeira consulta costuma durar de 45 a 60 minutos: conversa, avaliação clínica completa e um plano claro para os próximos passos.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span data-i18n="faq_4_q">Clareamento é seguro para qualquer pessoa?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p data-i18n="faq_4_a">Antes de qualquer clareamento, avaliamos a saúde do esmalte e das gengivas. Com o protocolo certo e acompanhamento, o procedimento é seguro e confortável para a maioria dos pacientes.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              <span data-i18n="faq_5_q">Preciso ir à clínica em caso de emergência?</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-a"><p data-i18n="faq_5_a">Sim — dor e traumas merecem atenção imediata. Reserve espaço para emergências pelo telefone ou WhatsApp abaixo, e priorizamos seu atendimento.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="section section-soft" id="booking">
+      <div class="container booking-grid">
+        <div class="booking-info reveal">
+          <figure class="booking-photo">
+            <img src="assets/images/clinic.jpg" alt="Salão principal da clínica Lumen Dental" data-i18n-alt="alt_clinic" loading="lazy">
+          </figure>
+          <div class="booking-info-card">
+            <h3 class="booking-info-title" data-i18n="book_info_title">Visite a clínica</h3>
+            <p class="booking-addr">210 Riverside Blvd, Suite 310, Austin, TX 78701</p>
+            <ul class="booking-meta">
+              <li>
+                <span class="meta-label" data-i18n="book_info_hours_title">Horário de atendimento</span>
+                <span data-i18n="book_hours_week">Segunda a sexta · 8h às 18h</span>
+                <span data-i18n="book_hours_sat">Sábados · 8h às 12h</span>
+              </li>
+              <li>
+                <span class="meta-label" data-i18n="book_info_phone_title">Telefone / WhatsApp</span>
+                <a href="tel:+15550102030">+1 (555) 010-2030</a>
+              </li>
+              <li>
+                <span class="meta-label" data-i18n="book_info_email_title">E-mail</span>
+                <a href="mailto:hello@lumendental.com">hello@lumendental.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="booking-form-card reveal">
+          <header class="book-head">
+            <span class="eyebrow" data-i18n="book_eyebrow">AGENDAMENTO</span>
+            <h2 class="section-title" data-i18n="book_title">Agende sua consulta.</h2>
+            <p class="section-sub" data-i18n="book_sub">Escolha a especialidade, a data e o horário. Você recebe a confirmação na hora.</p>
+          </header>
+
+          <form class="book-form" id="bookingForm" novalidate>
+            <div class="field">
+              <label for="bk-name" data-i18n="form_name_label">Nome</label>
+              <input type="text" id="bk-name" name="name" required autocomplete="name" data-i18n-ph="form_name_ph" placeholder="Como podemos chamar você?">
+            </div>
+            <div class="field">
+              <label for="bk-phone" data-i18n="form_phone_label">Telefone / WhatsApp</label>
+              <input type="tel" id="bk-phone" name="phone" required autocomplete="tel" inputmode="tel" data-i18n-ph="form_phone_ph" placeholder="(00) 00000-0000">
+            </div>
+            <div class="field">
+              <label for="bk-service" data-i18n="form_service_label">Especialidade</label>
+              <select id="bk-service" name="service" required>
+                <option value="" selected disabled data-i18n="form_service_placeholder">Escolha uma especialidade</option>
+                <option value="general" data-i18n="s1_title">Odontologia Geral</option>
+                <option value="cosmetic" data-i18n="s2_title">Odontologia Estética</option>
+                <option value="whitening" data-i18n="s3_title">Clareamento Dental</option>
+                <option value="implants" data-i18n="s4_title">Implantes Dentários</option>
+                <option value="aligners" data-i18n="s5_title">Aparelhos Alinhadores</option>
+                <option value="emergency" data-i18n="s6_title">Atendimento de Emergência</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="bk-date" data-i18n="form_date_label">Data</label>
+              <input type="date" id="bk-date" name="date" required>
+            </div>
+            <fieldset class="field field-time">
+              <legend data-i18n="form_time_label">Horário</legend>
+              <div class="time-chips" id="timeChips" role="radiogroup">
+                <button type="button" class="chip" data-time="09:00" role="radio" aria-checked="false">09:00</button>
+                <button type="button" class="chip" data-time="11:00" role="radio" aria-checked="false">11:00</button>
+                <button type="button" class="chip" data-time="13:30" role="radio" aria-checked="false">13:30</button>
+                <button type="button" class="chip" data-time="15:00" role="radio" aria-checked="false">15:00</button>
+                <button type="button" class="chip" data-time="17:00" role="radio" aria-checked="false">17:00</button>
+              </div>
+              <p class="field-error" id="timeError" hidden data-i18n="form_time_error">Selecione um horário para continuar.</p>
+            </fieldset>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" data-i18n="form_submit">Confirmar agendamento</button>
+            <p class="form-hint" data-i18n="form_hint">Sem compromisso — confirmaremos os detalhes antes de fechar.</p>
+          </form>
+
+          <div class="book-success" id="bookSuccess" hidden>
+            <span class="success-check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4 10-11"/></svg>
+            </span>
+            <h3 class="success-title" data-i18n="book_success_title">Solicitação recebida!</h3>
+            <p class="success-text" data-i18n="book_success_text">Abrimos espaço para você. Nossa equipe entra em contato em instantes para confirmar sua consulta.</p>
+            <dl class="success-summary">
+              <div><dt data-i18n="book_summary_name">Nome</dt><dd id="sumName"></dd></div>
+              <div><dt data-i18n="book_summary_service">Especialidade</dt><dd id="sumService"></dd></div>
+              <div><dt data-i18n="book_summary_date">Data</dt><dd id="sumDate"></dd></div>
+              <div><dt data-i18n="book_summary_time">Horário</dt><dd id="sumTime"></dd></div>
+              <div><dt data-i18n="book_summary_phone">Contato</dt><dd id="sumPhone"></dd></div>
+            </dl>
+            <button type="button" class="btn btn-outline" id="bookAgain" data-i18n="book_new">Fazer nova solicitação</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="final-cta">
+      <div class="container">
+        <div class="cta-band reveal">
+          <span class="cta-blob" aria-hidden="true"></span>
+          <h2 class="cta-title" data-i18n="final_title">Comece hoje o seu novo sorriso.</h2>
+          <p class="cta-text" data-i18n="final_text">Dê o primeiro passo com uma avaliação inicial — sem compromisso e com todo o conforto que você merece.</p>
+          <a class="btn btn-light btn-lg" href="#booking" data-i18n="final_cta">Agendar meu horário</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand brand-footer" href="#top" aria-label="Lumen Dental">
+            <span class="brand-mark" aria-hidden="true">LD</span>
+            <span class="brand-text" aria-hidden="true">LUMEN<br>DENTAL</span>
+          </a>
+          <p class="footer-tagline" data-i18n="footer_tagline">Cuidado odontológico moderno, acolhedor e transparente para toda a família.</p>
+          <div class="socials" aria-label="Redes sociais">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1Z"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="3"/><path d="m10 9.5 5 2.5-5 2.5v-5Z" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+        <nav class="footer-col" aria-label="Links do rodapé">
+          <h4 class="footer-title" data-i18n="footer_nav_title">Navegação</h4>
+          <ul>
+            <li><a href="#services" data-i18n="nav_services">Serviços</a></li>
+            <li><a href="#team" data-i18n="nav_team">Equipe</a></li>
+            <li><a href="#results" data-i18n="nav_results">Resultados</a></li>
+            <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+            <li><a href="#booking" data-i18n="nav_contact">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h4 class="footer-title" data-i18n="footer_contact_title">Contato</h4>
+          <ul class="footer-contact">
+            <li>210 Riverside Blvd, Suite 310<br>Austin, TX 78701</li>
+            <li><a href="tel:+15550102030">+1 (555) 010-2030</a></li>
+            <li><a href="mailto:hello@lumendental.com">hello@lumendental.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title" data-i18n="footer_hours_title">Horários</h4>
+          <ul class="footer-hours">
+            <li data-i18n="footer_hours_week">Segunda a sexta · 8h às 18h</li>
+            <li data-i18n="footer_hours_sat">Sábados · 8h às 12h</li>
+            <li data-i18n="footer_hours_sun">Domingos · Fechado</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n-html="copyright_line">© <span id="year"></span> Lumen Dental. Todos os direitos reservados.</p>
+        <p class="footer-demo" data-i18n="footer_demo">Projeto demo de portfólio — as informações são fictícias.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
